@@ -6,39 +6,151 @@
     margin: 0%;
 }
 
-aside{
-    height: 100vh;
-    background-color: rgb(34, 87, 87);
-    color: white;
-    padding: 10px;
-}
 body{
     display: flex;
 }
+main{
+    max-width: 100vh;
+}
+aside{
+    height: 100vh;
+    background-color: rgb(30, 145, 133);
+    color: white;
+    padding: 10px;
+}
+
+i{
+    margin: 10px;
+}
+
 .flex{
     display: flex;
+    align-items: center;
     cursor: pointer;
 }
 .flex>p{
     margin: 5px;
 }
 .navpart{
-    margin: 20px;
+    margin: 30px;
 }
 .nav{
     box-shadow: -2px 0px 64px 30px rgba(0,0,0,0.13);
+    height: 17vh;
+    width: 83vw;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+img{
+    width: 50px;
+    margin: 10px;
+}
+input{
+    width: 600px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    height: 30px;
+    margin-left: 20px;
+}
+.second>h1 , .profileandname>h1{
+    font-size: 12px;
+}
+.searchandstuff{
+    justify-content: space-around;
+    width: 80vw;
 }
 .grid{
-    width: 100vw;
-    height: 70vh;
+    background-color: rgb(240, 235, 235);
+    font-size: 11px;
+    width: 83.5vw;
+    height: 79.8vh;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr); 
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
-.articles{
-    grid-column: 0/4;
-    grid-row: 0/8;
+.project{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.project{
+    margin: 10px;
+    border-left: 5px solid orange;
+}
+.project h1 , .project p{
+    max-width: 300px;
+}
+.project h1{
+    font-size: 15px;
+}
+.trend h1{
+    font-size: 15px;
+}
+.annoucment h1{
+    font-size: 14px;
+}
+.annoucment p{
+    font-size: 10px;
+}
+.pheading{
+    font-size: 20px;
+    margin: 10px;
+}
+.heading{
+    font-size: 20px;
+    margin: 10px;
+}
+.icons{
+    justify-content: end;
+}
+.articles { 
+    grid-area: 1 / 1 / 8 / 6;
+ }
+.annoucements{ 
+    grid-area: 4 / 6 / 8 / 8;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+ }
+.trending { 
+    grid-area: 1 / 6 / 4 / 8;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.fa-bell{
+    width: 20px;
+    margin: 10px    ;
+}
+.girdarticles{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+.annoucement >p , .annoucment >h1{
+    max-width: 300px;
+}
+.anotherone{
+    justify-content: space-around;
+    align-items: center;
+    margin: -10px;
+}
+.buttons button{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.fakenav{
+    position: relative;
+    left: -8%;
 }
