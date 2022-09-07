@@ -13,7 +13,7 @@ main{
     max-width: 100vh;
 }
 aside{
-    height: 118vh;
+    height: 128vh;
     background-color: rgb(25, 146, 212);
     color: white;
     padding: 10px;
@@ -67,7 +67,7 @@ input{
     background-color: rgb(240, 235, 235);
     font-size: 15px;
     width: 83.5vw;
-    height: 100vh;
+    height: 110vh;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr); 
@@ -97,6 +97,9 @@ input{
 .project h1{
     font-size: 15px;
 }
+.project p{
+    margin: 17.8px;
+}
 .trend{
     justify-content: space-evenly;
 }
@@ -120,7 +123,8 @@ input{
 }
 .pheading{
     font-size: 20px;
-    margin: 10px;
+    margin-left: 17.8px;
+    margin-top: 10px;
 }
 .heading{
     font-size: 20px;
