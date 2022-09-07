@@ -69,7 +69,7 @@ input{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr); 
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
     grid-row-gap: 20px;
 }
 .project{
@@ -87,14 +87,27 @@ input{
 .project h1{
     font-size: 15px;
 }
+.trend{
+    height: 36px;
+    justify-content: space-evenly;
+}
+.trend img{
+    width: 30px;
+}
 .trend h1{
     font-size: 15px;
 }
 .annoucment h1{
     font-size: 14px;
+    margin: 10px;
 }
 .annoucment p{
     font-size: 10px;
+    margin: 10px;
+}
+.annoucment{
+    padding: 2px;
+    border-bottom: 1px solid grey;
 }
 .pheading{
     font-size: 20px;
@@ -109,15 +122,21 @@ input{
 }
 .articles { 
     grid-area: 1 / 1 / 8 / 6;
- }
+}
 .annoucements{ 
     grid-area: 4 / 6 / 8 / 8;
+}
+.aha{
     background-color: white;
     border-radius: 10px;
+    margin: 15px;
     padding: 10px;
- }
-.trending { 
+}
+.trending{
+    margin: 15px;
     grid-area: 1 / 6 / 4 / 8;
+}
+.yes{ 
     background-color: white;
     border-radius: 10px;
     padding: 10px;
